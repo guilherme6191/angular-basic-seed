@@ -1,0 +1,19 @@
+# MacOS
+.DS_Store
+
+# NPM
+node_modules
+
+# Grunt
+.tmp
+.sass-cache
+
+# Bower
+app/bower_components
+
+# PhpStrom
+.idea/*
+
+
+
+

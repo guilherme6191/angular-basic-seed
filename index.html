@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="app/bower_components/bootstrap/dist/css/bootstrap.css" 
+          rel="stylesheet" />
+
+    <link href="app/styles/main.css" rel="stylesheet" />
+    
+    <script src="app/bower_components/angular/angular.min.js"></script>
+    <script src="app/bower_components/angular-ui-router/release/angular-ui-router.min.js"></script>
+    <script src="app/bower_components/angular-bootstrap/ui-bootstrap-tpls.js"></script>
+
+    <script src="app/bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="app/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+
+
+  </head>
+  <body data-ng-app="myApp">
+
+    <div class="main">
+      <div class="container">
+
+        <data-ui-view></data-ui-view>
+
+      </div>
+    </div>
+
+    <!-- Modules -->
+    <script src="app.js"></script>
+
+    <!-- Controllers -->
+    <script src="app/controllers/MainController.js"></script>
+    
+    <!-- Services -->
+    <script src="app/services/MainService.js"></script>
+
+
+    <!-- Directives -->
+
+  </body>
+</html>
