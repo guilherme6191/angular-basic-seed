@@ -15,7 +15,7 @@ This is an opinionated structure but you can and should change as it fits better
 
 ### Clone basic-angular-seed
 
-Clone the basic-angular-seed repository using [git][git]:
+Clone the basic-angular-seed repository using git:
 
 ```
 git clone https://github.com/guilherme6191/angular-basic-seed.git
