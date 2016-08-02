@@ -1,3 +1,5 @@
+### Description basic-angular-seed
+
 This is a simple setup for an Angular 1.x app.
 
 Includes:
