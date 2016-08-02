@@ -48,22 +48,7 @@ module.exports = function (config) {
 
         // Continuous Integration mode
         // if true, it capture browsers, run tests and exit
-        singleRun: false,
-
-        /*
-         preprocessors: { 'base/app/directives/geolocation/views/!*.html': 'html2js' },
-
-
-         ngHtml2JsPreprocessor: {
-         // If your build process changes the path to your templates,
-         // use stripPrefix and prependPrefix to adjust it.
-         prependPrefix: 'base/',
-
-
-         // the name of the Angular module to create
-         moduleName: 'templates'
-         }
-         */
+        singleRun: false
 
     });
 };
